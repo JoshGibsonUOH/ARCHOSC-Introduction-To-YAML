@@ -60,10 +60,10 @@ Open the "OriginalAssignment" folder, and right click and open the terminal.
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Task</strong>
-Part 1:
-Using the skills you learnt last week, using the command line add your <strong>repository from last week</strong> as an origin and pull the repository down.
-Part 2:
-Open your "New Assignment" folder and do the same again, this time for your <strong>GitHub classroom created repository</strong>.
+<p>Part 1:
+Using the skills you learnt last week, using the command line add your <strong>repository from last week</strong> as an origin and pull the repository down.</p>
+<p>Part 2:
+Open your "New Assignment" folder and do the same again, this time for your <strong>GitHub classroom created repository</strong>.</p>
     </div>
 </div>
 
@@ -89,10 +89,34 @@ You should now at this point have to GitHub repositories, one containing your wo
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Task</strong>
-Part 1:
-Go into your "OriginalAssignment" folder and select everything, then copy and paste it into your "NewAssignment" folder.
-Part 2:
-Commit your new "NewAssignment" folder to GitHub with the commit message "Ported Assignments". You should then re-add it to GitHub pages, and make sure everything still works as it did last week.
+<p>Part 1:
+Go into your "OriginalAssignment" folder and select everything, then copy and paste it into your "NewAssignment" folder. </p>
+<p>Part 2:
+Commit your new "NewAssignment" folder to GitHub with the commit message "Ported Assignments". You should then re-add it to GitHub pages, and make sure everything still works as it did last week.</p>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="alert alert-primary" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+</svg> <strong>Task</strong>
+<p>Create a working document in Word for this session and explain what you just did, adding a screenshot to your Pictures folder of your new GitHub classroom repository. 
     </div>
 </div>
 
@@ -105,6 +129,8 @@ Commit your new "NewAssignment" folder to GitHub with the commit message "Ported
 
 
 # GitHub and CICD 2: GitHub Actions and YAML
+
+## Section One: Move Project To Be Hosted Using GitHub Actions
 Open your new GitHub Repository, you should be greeted with a screen like the one below (The name of your repository will be different due to how GitHub Classroom works).
 
 ![Image](Pictures/001.png)  
@@ -118,6 +144,8 @@ As you did last week, go to the pages section, and click on it, at the top right
 Click on this and you should get an option to unpublish your site – click on this. This will unpublish your site. You then need to press the dropdown button under “Source” and choose GitHub actions.  
  
 When done it should look like this (this can change slightly depending on the options GitHub generates )
+
+## Section Two: Setting Up A GitHub Actions Pipeline
 
 ![Image](Pictures/003.png)  
 
@@ -172,6 +200,8 @@ Take a screenshot of this window and add it to your portfolio, explaining what y
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+## Section 3, Writing YAML
 
 You are now free to start writing YAML in the box provided. To do this we are going to work through step-by-step, with each section being explained individually. Your YAML file should look like the paired screenshots when you complete each section.  
 
@@ -346,6 +376,8 @@ When done, return to your GitHub settings and go back to pages, you should have 
 
 ![Image](Pictures/017.png)  
 
+## Section 4, Further Tasks
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -359,15 +391,13 @@ When done, return to your GitHub settings and go back to pages, you should have 
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
     <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
 </svg> <strong>Task</strong>
-<p>1. Using the skills you learnt last week., clone your repository into your local workspace.</p>
+<p>Take a look at your website, you may notice that if you were to add all of your content from today it might start to get a little bit difficult to read.</p>
  
-<p>2. Open it in Visual Studio code and add the text “Now being Deployed Using GitHub Actions” anywhere you like – the text can be any style or colour you wish.</p>
+<p>To fix this, I would like you to add all of your content from this lab, both the images and text to a new HTML page.</p>
 
-<p> 3. When this is done push your repository back to GitHub and this should trigger your pipeline. When this is done you should add two screenshots to your portfolio, one showing your GitHub actions page in GitHub.</p>
+<p>You should then, as you did in the first lab, find a way to link these two pages together, using either a Hyperlink or NavBar</p>
 
-<p> 4. The second screenshot should be of your updated website in the GitHub pages site. </p>
-
-<p> 5. You should then explain what each of these screenshots show and provide a small summary of this lab.</p>
+<p> Once you have done this you should add one final section to your new page explaining how you joined the pages together.</p>
     </div>
 </div>
 
@@ -378,4 +408,3 @@ When done, return to your GitHub settings and go back to pages, you should have 
 </body>
 </html>
 
-And that it – all your labs are done!  
